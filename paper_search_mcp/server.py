@@ -17,7 +17,7 @@ from pydantic import Field
 from urllib.parse import unquote
 
 import httpx
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 
 from .academic_platforms.arxiv import ArxivSearcher
 from .academic_platforms.base_search import BASESearcher
